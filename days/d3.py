@@ -29,6 +29,7 @@ def part1(map_chunk, down=1, right=3):
     return tree_count
 
 def part2(map_chunk, part1_ans):
+    """Calculate the product of the number of trees hit for a list of varying slopes"""
     # (down, right) -- omitted slope calculated in part1
     slopes = [(1, 1), (1, 5), (1, 7), (2, 1)]
     
